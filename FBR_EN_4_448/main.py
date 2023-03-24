@@ -46,8 +46,9 @@ FT2_MP2 = ['SmarX1125A1276', 'SmarX1125A2827', 'SmarX1125A2837', 'SmarX1125A7804
 FT2_MP3 = ['SmarX1125A1278', 'SmarX1125A2848', 'SmarX1125A7800', 'SmarX1125A8047']
 MGT_MP6 = ['SmarX1125A5825', 'SmarX1125A7192']
 ST_MP1 = ['SmarX1280A4702', 'SmarX1280A0375']
-BURN_IN = ['AddaX8754A0140','AddaX8754A0145']
 ST_MP3 = ['SmarX1288A0067']
+BURN_IN = ['AddaX8754A0140','AddaX8754A0145']
+
     
 arquivo = openpyxl.load_workbook("FBR-EN-4-448.xlsx")
 planilha = arquivo.active
