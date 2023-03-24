@@ -39,7 +39,7 @@ for filename in os.listdir():
 meses = ["JANEIRO", "FEVEREIRO", "MARÇO", "ABRIL", "MAIO", "JUNHO", "JULHO", "AGOSTO", "SETEMBRO", "OUTUBRO", "NOVEMBRO", "DEZEMBRO"]
 mes_atual = datetime.date.today().month
 
-FT2_MP1 = ['SMARX8700A2018','SMARX8700A8116']
+FT2_MP1 = ['SmarX8700A2018','SmarX8700A8116']
 
 arquivo = openpyxl.load_workbook("FBR-EN-4-490.xlsx")
 planilha = arquivo.active
